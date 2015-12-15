@@ -27,6 +27,9 @@
 		BC6BA9A91C1995FF00EDE348 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BA9A81C1995FF00EDE348 /* ProductModel.m */; };
 		BC6BA9AC1C19965100EDE348 /* CountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BA9AB1C19965100EDE348 /* CountryModel.m */; };
 		BC6BA9AF1C1998FE00EDE348 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BA9AE1C1998FE00EDE348 /* OrderModel.m */; };
+		BCE7110C1C20380A00C2155F /* AudioModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7110B1C20380A00C2155F /* AudioModel.m */; };
+		BCE7110F1C20384900C2155F /* WordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7110E1C20384900C2155F /* WordModel.m */; };
+		BCE711121C203CE900C2155F /* WordListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711111C203CE900C2155F /* WordListModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +71,12 @@
 		BC6BA9AB1C19965100EDE348 /* CountryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryModel.m; sourceTree = "<group>"; };
 		BC6BA9AD1C1998FE00EDE348 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
 		BC6BA9AE1C1998FE00EDE348 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
+		BCE7110A1C20380A00C2155F /* AudioModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioModel.h; sourceTree = "<group>"; };
+		BCE7110B1C20380A00C2155F /* AudioModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioModel.m; sourceTree = "<group>"; };
+		BCE7110D1C20384900C2155F /* WordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordModel.h; sourceTree = "<group>"; };
+		BCE7110E1C20384900C2155F /* WordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordModel.m; sourceTree = "<group>"; };
+		BCE711101C203CE900C2155F /* WordListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordListModel.h; sourceTree = "<group>"; };
+		BCE711111C203CE900C2155F /* WordListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordListModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +127,12 @@
 				BC6BA9781C198FBE00EDE348 /* LaunchScreen.storyboard */,
 				BC6BA97B1C198FBE00EDE348 /* Info.plist */,
 				BC6BA96A1C198FBE00EDE348 /* Supporting Files */,
+				BCE711101C203CE900C2155F /* WordListModel.h */,
+				BCE711111C203CE900C2155F /* WordListModel.m */,
+				BCE7110A1C20380A00C2155F /* AudioModel.h */,
+				BCE7110B1C20380A00C2155F /* AudioModel.m */,
+				BCE7110D1C20384900C2155F /* WordModel.h */,
+				BCE7110E1C20384900C2155F /* WordModel.m */,
 			);
 			path = JSONModelDemo;
 			sourceTree = "<group>";
@@ -260,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE7110F1C20384900C2155F /* WordModel.m in Sources */,
 				BC6BA9A31C19911300EDE348 /* JSONHTTPClient.m in Sources */,
 				BC6BA99E1C19911300EDE348 /* JSONModelArray.m in Sources */,
 				BC6BA9A01C19911300EDE348 /* JSONModelError.m in Sources */,
@@ -273,8 +289,10 @@
 				BC6BA9A11C19911300EDE348 /* NSArray+JSONModel.m in Sources */,
 				BC6BA96F1C198FBE00EDE348 /* AppDelegate.m in Sources */,
 				BC6BA96C1C198FBE00EDE348 /* main.m in Sources */,
+				BCE711121C203CE900C2155F /* WordListModel.m in Sources */,
 				BC6BA9AC1C19965100EDE348 /* CountryModel.m in Sources */,
 				BC6BA99F1C19911300EDE348 /* JSONModelClassProperty.m in Sources */,
+				BCE7110C1C20380A00C2155F /* AudioModel.m in Sources */,
 				BC6BA9A91C1995FF00EDE348 /* ProductModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

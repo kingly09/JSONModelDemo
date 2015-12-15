@@ -14,6 +14,8 @@
 #import "ProductModel.h"
 #import "OrderModel.h"
 
+#import "WordListModel.h"
+
 @interface ViewController ()
 
 @end
@@ -23,7 +25,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    NSString *qw = @"{"Lists":[{"contextType":"1","word":"jsonModel","phoneticSymbol":"aa","syllable":"","paraphrase":"","sentence":"","audiofile":"","picturefile":"","audioTextInfo":[{"textIndex":"1","textbeg":"2","textend":"10","texttime":"0"},{"textIndex":"1","textbeg":"2","textend":"10","texttime":"0"}]}]}";
     
+    
+   
+
     NSString* json = @"{\"id\":\"10\", \"country\":\"Germany\", \"dialCode\": 49, \"isInEurope\":true}";
     NSError* err = nil;
     CountryModel* country = [[CountryModel alloc] initWithString:json error:&err];
@@ -46,6 +52,11 @@
 //    [self setOrderModel];
 
     [self setOrderModels];
+    
+    
+    [self setWord];
+    
+    
     
 }
 
@@ -94,9 +105,19 @@
 
     
 
+}
 
+-(void)setWord{
     
+    NSString *json = @"{\"Lists\":[{\"contextType\":\"1\",\"word\":\"jsonModel\",\"phoneticSymbol\":\"aa\",\"syllable\":\"\",\"paraphrase\":\"\",\"sentence\":\"\",\"audiofile\":\"\",\"picturefile\":\"\",\"audioTextInfo\":[{\"textIndex\":\"1\",\"textbeg\":\"2\",\"textend\":\"10\",\"texttime\":\"0\"}]}]}";
     
+    NSError* err = nil;
+    WordListModel *audioTextInfo = [[WordListModel alloc] initWithString:json error:&err];
+    
+    WordModel *wordModel = [audioTextInfo.Lists  firstObject];
+    
+    NSLog(@"wordModel::%@",wordModel.word);
+
 }
 
 - (void)didReceiveMemoryWarning {
