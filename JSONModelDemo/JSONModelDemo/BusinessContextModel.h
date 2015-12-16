@@ -12,7 +12,7 @@
 
 @interface BusinessContextModel : JSONModel
 
-@property (assign, nonatomic) int fileType;
+@property (assign, nonatomic) int fileType; //1 为文本，2为图片，3为音频文件
 @property (assign, nonatomic) int showIndex;
 
 
