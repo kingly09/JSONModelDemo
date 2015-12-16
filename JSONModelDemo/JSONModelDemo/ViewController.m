@@ -117,6 +117,10 @@
     WordModel *wordModel = [audioTextInfo.Lists  firstObject];
     
     NSLog(@"wordModel::%@",wordModel.word);
+    
+     NSString* string = [audioTextInfo toJSONString];
+    
+    NSLog(@"string::%@",string);
 
 }
 
