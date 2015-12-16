@@ -15,6 +15,7 @@
 #import "OrderModel.h"
 
 #import "WordListModel.h"
+#import "BusinessListModel.h"
 
 @interface ViewController ()
 
@@ -53,9 +54,10 @@
 
     [self setOrderModels];
     
-    
+    [self setInfo];
     [self setWord];
     
+
     
     
 }
@@ -105,6 +107,21 @@
 
     
 
+}
+
+-(void)setInfo{
+
+   NSString *json = @"{\"businessInfoList\":[{\"index\":\"1\",\"type\":\"1\",\"nameType\":\"时文\",\"showName\":\"时文\",\"fileID\":\"guid_busid\",\"fPath\":\"guid_busid.ucw\",\"context\":[{\"fileType\":\"2\",\"showIndex\":\"1\"}]}]}";
+    
+    NSError* err = nil;
+    BusinessListModel *businessListModel = [[BusinessListModel alloc] initWithString:json error:&err];
+    
+    BusinessInfoModel *businessInfoModel = [businessListModel.businessInfoList firstObject];
+    
+    BusinessContextModel *businessContext = [businessInfoModel.context firstObject];
+    
+    NSLog(@"%d",businessContext.fileType);
+    
 }
 
 -(void)setWord{

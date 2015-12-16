@@ -30,6 +30,9 @@
 		BCE7110C1C20380A00C2155F /* AudioModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7110B1C20380A00C2155F /* AudioModel.m */; };
 		BCE7110F1C20384900C2155F /* WordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7110E1C20384900C2155F /* WordModel.m */; };
 		BCE711121C203CE900C2155F /* WordListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711111C203CE900C2155F /* WordListModel.m */; };
+		BCE711151C20FF1500C2155F /* BusinessInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711141C20FF1500C2155F /* BusinessInfoModel.m */; };
+		BCE711181C20FFD200C2155F /* BusinessContextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE711171C20FFD200C2155F /* BusinessContextModel.m */; };
+		BCE7111B1C21006C00C2155F /* BusinessListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE7111A1C21006C00C2155F /* BusinessListModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +80,12 @@
 		BCE7110E1C20384900C2155F /* WordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordModel.m; sourceTree = "<group>"; };
 		BCE711101C203CE900C2155F /* WordListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordListModel.h; sourceTree = "<group>"; };
 		BCE711111C203CE900C2155F /* WordListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordListModel.m; sourceTree = "<group>"; };
+		BCE711131C20FF1500C2155F /* BusinessInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessInfoModel.h; sourceTree = "<group>"; };
+		BCE711141C20FF1500C2155F /* BusinessInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessInfoModel.m; sourceTree = "<group>"; };
+		BCE711161C20FFD200C2155F /* BusinessContextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessContextModel.h; sourceTree = "<group>"; };
+		BCE711171C20FFD200C2155F /* BusinessContextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessContextModel.m; sourceTree = "<group>"; };
+		BCE711191C21006C00C2155F /* BusinessListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessListModel.h; sourceTree = "<group>"; };
+		BCE7111A1C21006C00C2155F /* BusinessListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessListModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +138,12 @@
 				BC6BA96A1C198FBE00EDE348 /* Supporting Files */,
 				BCE711101C203CE900C2155F /* WordListModel.h */,
 				BCE711111C203CE900C2155F /* WordListModel.m */,
+				BCE711191C21006C00C2155F /* BusinessListModel.h */,
+				BCE7111A1C21006C00C2155F /* BusinessListModel.m */,
+				BCE711131C20FF1500C2155F /* BusinessInfoModel.h */,
+				BCE711141C20FF1500C2155F /* BusinessInfoModel.m */,
+				BCE711161C20FFD200C2155F /* BusinessContextModel.h */,
+				BCE711171C20FFD200C2155F /* BusinessContextModel.m */,
 				BCE7110A1C20380A00C2155F /* AudioModel.h */,
 				BCE7110B1C20380A00C2155F /* AudioModel.m */,
 				BCE7110D1C20384900C2155F /* WordModel.h */,
@@ -278,6 +293,8 @@
 				BCE7110F1C20384900C2155F /* WordModel.m in Sources */,
 				BC6BA9A31C19911300EDE348 /* JSONHTTPClient.m in Sources */,
 				BC6BA99E1C19911300EDE348 /* JSONModelArray.m in Sources */,
+				BCE7111B1C21006C00C2155F /* BusinessListModel.m in Sources */,
+				BCE711151C20FF1500C2155F /* BusinessInfoModel.m in Sources */,
 				BC6BA9A01C19911300EDE348 /* JSONModelError.m in Sources */,
 				BC6BA9A21C19911300EDE348 /* JSONAPI.m in Sources */,
 				BC6BA9AF1C1998FE00EDE348 /* OrderModel.m in Sources */,
@@ -286,6 +303,7 @@
 				BC6BA99D1C19911300EDE348 /* JSONModel.m in Sources */,
 				BC6BA9A51C19911300EDE348 /* JSONKeyMapper.m in Sources */,
 				BC6BA9A41C19911300EDE348 /* JSONModel+networking.m in Sources */,
+				BCE711181C20FFD200C2155F /* BusinessContextModel.m in Sources */,
 				BC6BA9A11C19911300EDE348 /* NSArray+JSONModel.m in Sources */,
 				BC6BA96F1C198FBE00EDE348 /* AppDelegate.m in Sources */,
 				BC6BA96C1C198FBE00EDE348 /* main.m in Sources */,
